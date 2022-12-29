@@ -22,10 +22,24 @@
     </nav>
 
     <div class="bb">
-        {% if prediction == 1%}
-        <h1 class="cc"><b>Spam😶😶😑😶😐</b></h1>
-        {% elif prediction == 0%}
-        <h1 class="cc"><b>Not Spam🤩😁😀🤓</b></h1>
+        {% if prediction == 0%}
+        <h1 class="cc"><b>Predicted Genre : Thriller</b></h1>
+        {% elif prediction == 1%}
+        <h1 class="cc"><b>Predicted Genre : Comedy</b></h1>
+        {% elif prediction == 2%}
+        <h1 class="cc"><b>Predicted Genre : Drama</b></h1>
+        {% elif prediction == 3%}
+        <h1 class="cc"><b>Predicted Genre : Action</b></h1>
+        {% elif prediction == 4%}
+        <h1 class="cc"><b>Predicted Genre : Science Fiction</b></h1>
+        {% elif prediction == 5%}
+        <h1 class="cc"><b>Predicted Genre : Other</b></h1>
+        {% elif prediction == 6%}
+        <h1 class="cc"><b>Predicted Genre : Romance</b></h1>
+        {% elif prediction == 7%}
+        <h1 class="cc"><b>Predicted Genre : Horror</b></h1>
+        {% elif prediction == 8%}
+        <h1 class="cc"><b>Predicted Genre : Adventure</b></h1>
         {% endif %}
     </div>
 
